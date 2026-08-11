@@ -103,7 +103,8 @@ p { margin: 0; }
   z-index: 60; width: min(300px, 78vw); background: var(--card); border: 1px solid var(--gold-line);
   box-shadow: var(--shadow); color: var(--ink-2); font-size: var(--t-meta); font-weight: 400;
   line-height: 1.5; padding: 10px 12px; border-radius: 6px; text-align: left; }
-.pagenav2 { position: fixed; left: 0; top: 45%; z-index: 70; }
+.pagenav2 { position: fixed; left: 0; top: 84px; z-index: 70; }
+@media (max-width: 800px) { .pagenav2 { top: 64px; } }
 .pagenav2 .tab { background: var(--gold-deep); color: var(--paper); font-weight: 700; font-size: 11px;
   letter-spacing: 1px; padding: 10px 7px; border-radius: 0 4px 4px 0; writing-mode: vertical-rl;
   text-transform: uppercase; cursor: default; }
