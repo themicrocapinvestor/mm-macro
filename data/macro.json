@@ -171,7 +171,7 @@
     "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16312.pdf",
     "date": "2026-08-10",
     "kind": "Presidential document",
-    "summary": "Presidential Determination No. 2026-20 of August 3, 2026--Continuation of U.S."
+    "summary": "The President says the US will keep helping Colombia stop drug planes in their airspace because it's important for security. Colombia must have safety rules to protect people when they intercept these planes."
    },
    {
     "title": "Establishing the President's Military Spouse Commission",
@@ -203,7 +203,7 @@
     "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/pdf/2026-15860.pdf",
     "date": "2026-08-04",
     "kind": "Presidential document",
-    "summary": "By virtue of the authority vested in me as President of the United States of America (the ``President''), I hereby grant permission, subject to the conditions set forth herein, to Cameron County, Texas (the ``permittee''), to own, operate ..."
+    "summary": "By virtue of the authority vested in me as President of the United States of America (the \"President\"), I hereby grant permission, subject to the conditions set forth herein, to Cameron County, Texas (the \"permittee\"), to own, operate, and ..."
    },
    {
     "title": "Presidential Determination Pursuant to Section 101 of the Defense Production Act of 1950 ...",
@@ -235,7 +235,7 @@
     "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/pdf/2026-15835.pdf",
     "date": "2026-08-04",
     "kind": "Flagged significant",
-    "summary": "The U.S."
+    "summary": "The U.S. Department of Transportation (DOT or Department) is extending its previously announced enforcement discretion for four provisions of the final rule on \"Ensuring Safe Accommodations for Air Travelers With Disabilities Using ..."
    },
    {
     "title": "NRC Modernization: Rulemaking Procedure, Federal Advisory Committee Act Alignment ...",
@@ -243,7 +243,7 @@
     "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16374.pdf",
     "date": "2026-08-11",
     "kind": "Final rule",
-    "summary": "The U.S."
+    "summary": "The U.S. Nuclear Regulatory Commission (NRC) is amending its regulations by streamlining procedural provisions related to information withholding and post-promulgation comment periods; aligning the NRC's regulations with Committee ..."
    },
    {
     "title": "Reforms to 13 CFR 124.103 To Remove SBA's 8(a) Program's Rebuttable Presumption of Social ...",
@@ -261,6 +261,6 @@
   "debt": false,
   "cash": false,
   "borrowing": false,
-  "register": true
+  "register": false
  }
 }
