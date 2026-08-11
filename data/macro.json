@@ -501,7 +501,7 @@
   "inflation": false,
   "jobs": false,
   "debt": false,
-  "cash": true,
+  "cash": false,
   "borrowing": false,
   "dollar": false,
   "mortgage": false,
