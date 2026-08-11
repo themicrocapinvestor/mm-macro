@@ -96,23 +96,6 @@ p { margin: 0; }
 .doc-list li { padding: .5rem 0; border-top: 1px solid var(--rule-soft); font-size: var(--t-small); }
 .doc-list li::marker { color: var(--gold); }
 .doc-list a { font-weight: 550; line-height: 1.45; }
-.week { border-top: 1px solid var(--rule); background: var(--card); }
-.week .wrap { padding-top: 2.2rem; padding-bottom: 2.4rem; }
-.week h2 { font-family: var(--serif); font-weight: 620; font-size: clamp(1.5rem, 3vw, 2rem);
-  letter-spacing: -.01em; margin: 0 0 .5rem; }
-.week .secnote { color: var(--mute); font-size: var(--t-small); line-height: 1.6; max-width: 46rem;
-  margin: 0 0 1.4rem; }
-.week-list { list-style: none; margin: 0; padding: 0; counter-reset: wk; }
-.week-list li { counter-increment: wk; position: relative; padding: 1rem 0 1rem 3rem;
-  border-top: 1px solid var(--rule-soft); }
-.week-list li::before { content: counter(wk); position: absolute; left: 0; top: 1.05rem;
-  font-family: var(--serif); font-size: 1.15rem; color: var(--gold); font-weight: 620; }
-.doc-kind { display: inline-block; font-size: .66rem; font-weight: 800; letter-spacing: .12em;
-  text-transform: uppercase; color: var(--gold-deep); background: var(--gold-wash);
-  border: 1px solid var(--gold-line); border-radius: 999px; padding: .18rem .6rem; margin-bottom: .35rem; }
-.doc-sum { margin: 0 0 .3rem; font-size: .98rem; line-height: 1.55; color: var(--ink-2); max-width: 50rem; }
-.doc-title { display: inline-block; font-weight: 620; line-height: 1.4; margin-bottom: .25rem; }
-.doc-meta { display: block; color: var(--mute); font-size: .78rem; margin-top: .15rem; }
 .doc-meta { display: block; font-size: var(--t-micro); color: var(--mute); margin-top: .15rem; }
 .tip { cursor: help; border-bottom: 1px dotted var(--gold-line); position: relative; }
 .tip .tiptext { display: none; }
@@ -234,6 +217,7 @@ document.addEventListener('click', function (e) {
   });
   if (t) t.classList.toggle('open');
 });
+
 // Iran cost clock: anchor $113.3B at 2026-06-16 00:00 UTC (the day
 // iran-cost-ticker.com froze its count), accruing at the Pentagon's
 // preliminary rate of ~$1B/day = $11,574.07/sec.
