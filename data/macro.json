@@ -1,0 +1,164 @@
+{
+ "generated": "2026-08-11",
+ "inflation": {
+  "as_of": "June 2026",
+  "cpi_yoy": 3.5,
+  "core_yoy": 2.6,
+  "spark": [
+   2.7,
+   2.7,
+   2.9,
+   3.0,
+   2.7,
+   2.7,
+   2.4,
+   2.4,
+   3.3,
+   3.8,
+   4.2,
+   3.5
+  ]
+ },
+ "jobs": {
+  "as_of": "July 2026",
+  "urate": 4.1,
+  "urate_delta": -0.1,
+  "nfp_change_k": -23,
+  "spark": [
+   -70,
+   76,
+   -140,
+   41,
+   -17,
+   160,
+   -156,
+   214,
+   148,
+   63,
+   20,
+   -23
+  ]
+ },
+ "debt": {
+  "as_of": "2026-08-07",
+  "total": 39885247772395.56,
+  "per_person": 116600,
+  "spark": [
+   37.64,
+   38.04,
+   38.4,
+   38.51,
+   38.52,
+   38.77,
+   39.07,
+   38.97,
+   39.21,
+   39.46,
+   39.77,
+   39.89
+  ]
+ },
+ "cash": {
+  "as_of": "2026-08-07",
+  "tga_bn": 961.7,
+  "spark": [
+   895.6,
+   877.0,
+   919.1,
+   807.4,
+   770.6,
+   776.8,
+   783.1,
+   785.0,
+   749.2,
+   744.6,
+   738.3,
+   750.3,
+   787.8,
+   796.0,
+   822.5,
+   815.4,
+   828.2,
+   875.0,
+   835.4,
+   877.2,
+   886.3,
+   902.8,
+   966.1,
+   970.4,
+   997.9,
+   876.6,
+   870.1,
+   924.2,
+   929.3,
+   961.7
+  ]
+ },
+ "borrowing": {
+  "as_of": "2026-08-10",
+  "y10": 4.72,
+  "y2": 4.25,
+  "spread": 0.47,
+  "avg_rate": 3.443,
+  "avg_rate_month": "July 2026",
+  "spark": [
+   4.56,
+   4.62,
+   4.58,
+   4.55,
+   4.57,
+   4.55,
+   4.6,
+   4.63,
+   4.67,
+   4.71,
+   4.69,
+   4.65,
+   4.61,
+   4.67,
+   4.68,
+   4.75,
+   4.7,
+   4.63,
+   4.63,
+   4.69,
+   4.65,
+   4.72
+  ]
+ },
+ "register": {
+  "as_of": "2026-08-11",
+  "week_total": 621,
+  "rules": 95,
+  "proposed": 46,
+  "notices": 470,
+  "notable": [
+   {
+    "title": "Substances Generally Recognized as Safe",
+    "agency": "Health and Human Services Department",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16296.pdf",
+    "date": "2026-08-11"
+   },
+   {
+    "title": "HUD's Implementation of the Fair Housing Act's Disparate Impact Standard; Amendments to HU",
+    "agency": "Housing and Urban Development Department",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16228.pdf",
+    "date": "2026-08-10"
+   },
+   {
+    "title": "Accessible Lavatories on Single-Aisle Aircraft and Ensuring Safe Accommodations for Air Tr",
+    "agency": "Transportation Department",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/pdf/2026-15835.pdf",
+    "date": "2026-08-04"
+   }
+  ]
+ },
+ "stale": {
+  "inflation": false,
+  "jobs": false,
+  "debt": false,
+  "cash": false,
+  "borrowing": false,
+  "register": false
+ }
+}
