@@ -261,6 +261,6 @@
   "debt": false,
   "cash": false,
   "borrowing": false,
-  "register": false
+  "register": true
  }
 }
