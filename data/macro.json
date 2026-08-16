@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-15",
+ "generated": "2026-08-16",
  "inflation": {
   "as_of": "July 2026",
   "cpi_yoy": 3.4,
@@ -37,6 +37,22 @@
    63,
    20,
    -23
+  ],
+  "claims_k": 209,
+  "claims_as_of": "2026-08-08",
+  "claims_spark": [
+   210,
+   212,
+   225,
+   230,
+   227,
+   216,
+   217,
+   217,
+   209,
+   189,
+   198,
+   200
   ]
  },
  "debt": {
@@ -126,7 +142,7 @@
    4.63
   ],
   "fed_funds": 3.63,
-  "fed_funds_date": "2026-08-12"
+  "fed_funds_date": "2026-08-13"
  },
  "dollar": {
   "as_of": "2026-08-07",
@@ -483,14 +499,14 @@
   }
  },
  "stale": {
-  "inflation": false,
-  "jobs": false,
+  "inflation": true,
+  "jobs": true,
   "debt": false,
   "cash": false,
   "borrowing": true,
-  "dollar": true,
-  "mortgage": true,
-  "mood": true,
+  "dollar": false,
+  "mortgage": false,
+  "mood": false,
   "more": false
  }
 }
