@@ -56,8 +56,8 @@
   ]
  },
  "debt": {
-  "as_of": "2026-08-13",
-  "total": 39934816207844.37,
+  "as_of": "2026-08-14",
+  "total": 39933634466112.78,
   "per_person": 116800,
   "spark": [
    37.64,
@@ -502,7 +502,7 @@
  "stale": {
   "inflation": false,
   "jobs": false,
-  "debt": true,
+  "debt": false,
   "cash": false,
   "borrowing": false,
   "dollar": false,
