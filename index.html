@@ -158,6 +158,46 @@ p { margin: 0; }
 @media (max-width: 980px) { .mini-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .mini-grid { grid-template-columns: 1fr; } }
 </style></head><body>
+<style>
+.subnav { position: sticky; top: 0; z-index: 20; background: var(--paper); border-bottom: 1px solid var(--rule); }
+.subnav .wrap { display: flex; align-items: stretch; gap: .25rem; min-height: 3rem; overflow-x: auto; scrollbar-width: none; }
+.subnav .wrap::-webkit-scrollbar { display: none; }
+.subnav a { display: flex; align-items: center; padding: 0 1rem; font-size: var(--t-small); font-weight: 600;
+  color: var(--ink-2); text-decoration: none; border-bottom: 2px solid transparent; white-space: nowrap; }
+.subnav a:hover { color: var(--ink); }
+.subnav a.on { color: var(--gold-deep); border-bottom-color: var(--gold); }
+.srch-trig { margin-left: auto; display: flex; align-items: center; gap: .5rem; cursor: pointer;
+  background: var(--card); color: var(--mute); border: 1px solid var(--rule); border-radius: 999px;
+  padding: .5rem .8rem; font-size: var(--t-small); font-family: inherit; }
+.srch-trig:hover { border-color: var(--gold-line); color: var(--ink-2); }
+.srch-trig kbd { font-family: inherit; font-size: .72em; color: var(--mute); border: 1px solid var(--rule);
+  border-bottom-width: 2px; border-radius: 4px; padding: .05em .35em; background: var(--paper); }
+.srch-trig svg { flex: none; }
+.co-filter { width: 100%; box-sizing: border-box; margin: 0 0 1.1rem; padding: .75rem 1rem;
+  font-size: .98rem; font-family: inherit; color: var(--ink); background: var(--card);
+  border: 1px solid var(--rule); border-radius: 8px; outline: none; }
+.co-filter:focus { border-color: var(--gold-line); box-shadow: 0 0 0 3px var(--gold-wash); }
+@media (max-width: 720px) {
+  .subnav a { padding: 0 .7rem; }
+  .srch-trig-t, .srch-trig kbd { display: none; }
+  .srch-trig { padding: .5rem .6rem; }
+}
+</style>
+<nav class="subnav" aria-label="Sections">
+  <div class="wrap">
+    <a href="index.html">Feed</a>
+    <a href="ask.html">Ask</a>
+    <a href="portfolios.html">Portfolios</a>
+    <a href="promoter-buying.html">Promoter Buying</a>
+    <a href="special-situations.html">Special Situations</a>
+    <a href="ipo-dashboard.html">IPO Watch</a>
+    <a href="macro.html" class="on">Macro</a>
+    <a href="cabinet.html">Cabinet</a>
+    <a href="white-house.html">White House</a>
+    <a href="search/">Search</a>
+    <a href="reports.html">Reports</a>
+  </div>
+</nav>
 <!--MIRROR-STRIP-START-->
 <div class="hubbar"><div class="wrap">
   <span>This dashboard is now part of the <strong>Smart Investor Tracker</strong>, alongside the
