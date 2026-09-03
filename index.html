@@ -117,6 +117,13 @@ p { margin: 0; }
 .pagenav2 .links a:hover { color: var(--gold-deep); background: var(--gold-wash); }
 .pagenav2 .links .sep { display: block; border-top: 1px solid var(--rule-soft); margin: 6px 0; }
 .pagenav2 .links a.sub { color: var(--gold-deep); font-weight: 700; }
+.hubbar { background: var(--gold-wash, #f8f1de); border-bottom: 1px solid var(--gold-line, #e4d7ad); }
+.hubbar .wrap { display:flex; flex-wrap:wrap; gap:.6rem 1rem; align-items:center;
+  padding:.6rem 1.25rem; font-size:.85rem; color:var(--ink-2, #4a4436); }
+.hubbar .hubgo { margin-left:auto; white-space:nowrap; font-weight:600;
+  color:var(--gold-deep, #7c6213); text-decoration:none; }
+.hubbar .hubgo:hover { text-decoration:underline; }
+@media (max-width:640px){ .hubbar .hubgo { margin-left:0; } }
 .site-foot { border-top: 1px solid var(--rule); background: var(--card); }
 .site-foot .wrap { padding-top: 2rem; padding-bottom: 2.4rem; }
 .site-foot p { font-size: var(--t-meta); color: var(--mute); line-height: 1.65; max-width: 62rem; }
@@ -151,6 +158,13 @@ p { margin: 0; }
 @media (max-width: 980px) { .mini-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .mini-grid { grid-template-columns: 1fr; } }
 </style></head><body>
+<!--MIRROR-STRIP-START-->
+<div class="hubbar"><div class="wrap">
+  <span>This dashboard is now part of the <strong>Smart Investor Tracker</strong>, alongside the
+  filing feed, superinvestor portfolios, IPO watch and the research assistant.</span>
+  <a class="hubgo" href="https://tracker.themicrocapminute.in/macro.html">Open it on the Tracker &rarr;</a>
+</div></div>
+<!--MIRROR-STRIP-END-->
 <header class="site-head">
   <div class="wrap">
     <a class="brand" href="https://macro.themicrocapminute.in/">
@@ -235,7 +249,10 @@ p { margin: 0; }
 <a href="https://tracker.themicrocapminute.in/special-situations.html">Special Situations</a>
 <a href="https://tracker.themicrocapminute.in/ipo-dashboard.html">IPO Watch</a>
 <a href="https://tracker.themicrocapminute.in/search/">Filings Search</a>
-<a href="https://tracker.themicrocapminute.in/reports.html">Reports</a><span class="sep"></span>
+<a href="https://tracker.themicrocapminute.in/reports.html">Reports</a>
+<a href="https://tracker.themicrocapminute.in/cabinet.html">Cabinet Watch</a>
+<a href="https://tracker.themicrocapminute.in/white-house.html">White House Watch</a>
+<a href="https://tracker.themicrocapminute.in/ask.html">Ask</a><span class="sep"></span>
 <a href="https://www.themicrocapminute.in">The Microcap Minute</a>
 <a href="https://school.themicrocapminute.in">Classroom</a>
 <a href="https://macro.themicrocapminute.in/">Macro Dashboard</a>
