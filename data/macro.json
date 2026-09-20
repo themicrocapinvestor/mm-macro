@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19",
+ "generated": "2026-09-20",
  "inflation": {
   "as_of": "August 2026",
   "cpi_yoy": 3.4,
@@ -498,8 +498,8 @@
   }
  },
  "stale": {
-  "inflation": true,
-  "jobs": true,
+  "inflation": false,
+  "jobs": false,
   "debt": false,
   "cash": false,
   "borrowing": false,
